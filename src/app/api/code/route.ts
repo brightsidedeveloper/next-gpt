@@ -7,6 +7,8 @@ import simpleGit from 'simple-git'
 
 const git = simpleGit()
 
+//TODO GET() ALL THE CODE FOR GPT TO USE
+
 export async function POST(request: Request) {
   const body = await request.json()
   const { code, filePath } = body
